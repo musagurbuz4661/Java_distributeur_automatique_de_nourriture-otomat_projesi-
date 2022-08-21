@@ -84,6 +84,7 @@ public class Urunler {
                             paraUstu = para - urunFiyatlarListesi.get(i);
                             System.out.println("Para ustu = " + paraUstu + "$");
                            cikis = true;
+
                         }
 
                     } else {
@@ -113,6 +114,7 @@ public class Urunler {
                 System.out.println("================================================");
                 System.out.println("=  Bizi Tercih ettiginiz icin tesekkur ederiz  =");
                 System.out.println("================================================");
+
             }else{
                 System.out.println("Lutfen Devam etmek isyiyorsaniz 'Y' istemiyorsaniz 'N' seciniz");
             }
